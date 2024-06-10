@@ -1,6 +1,6 @@
 # Steps for Repoducing
 
-The original python VQE scripts runs on a deprecated version of `qiskit.algorithms` so it needs to be patched. To setup the VQE algorithm integration
+The original python VQE scripts runs on a deprecated version of `qiskit.algorithms` so it needs to be patched. The updated `.py` files are included in the repo. To setup the VQE algorithm integration:
 
 ```
 python3 -m venv /path/to/virtual/environment
