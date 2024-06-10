@@ -15,10 +15,10 @@ from typing import Any
 
 import numpy as np
 from qiskit import QiskitError
-from qiskit.algorithms import estimate_observables
-from qiskit.algorithms.minimum_eigensolvers.adapt_vqe import (
+from qiskit_algorithms import estimate_observables
+from qiskit_algorithms.minimum_eigensolvers.adapt_vqe import (
     AdaptVQE, AdaptVQEResult, TerminationCriterion)
-from qiskit.algorithms.minimum_eigensolvers.vqe import VQEResult
+from qiskit_algorithms.minimum_eigensolvers.vqe import VQEResult
 from qiskit.circuit.library import EvolvedOperatorAnsatz
 
 LOGGER = logging.getLogger(__name__)

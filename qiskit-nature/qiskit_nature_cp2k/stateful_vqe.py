@@ -13,12 +13,12 @@ from __future__ import annotations
 import logging
 from time import time
 
-from qiskit.algorithms.list_or_dict import ListOrDict
-from qiskit.algorithms.minimum_eigensolvers.vqe import VQE, VQEResult
-from qiskit.algorithms.optimizers import OptimizerResult
-from qiskit.algorithms.observables_evaluator import estimate_observables
-from qiskit.algorithms.utils import validate_bounds, validate_initial_point
-from qiskit.algorithms.utils.set_batching import _set_default_batchsize
+from qiskit_algorithms.list_or_dict import ListOrDict
+from qiskit_algorithms.minimum_eigensolvers.vqe import VQE, VQEResult
+from qiskit_algorithms.optimizers import OptimizerResult
+from qiskit_algorithms.observables_evaluator import estimate_observables
+from qiskit_algorithms.utils import validate_bounds, validate_initial_point
+from qiskit_algorithms.utils.set_batching import _set_default_batchsize
 from qiskit.quantum_info.operators.base_operator import BaseOperator
 
 LOGGER = logging.getLogger(__name__)
